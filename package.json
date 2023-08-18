@@ -1,0 +1,36 @@
+{
+  "name": "assignment-a2-the-gathering-web-scraper",
+  "version": "1.0.0",
+  "description": "1DV026 - The gathering web scraper",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "lint": "npx eslint ./src || exit 0",
+    "lint:fix": "npx eslint ./src --fix || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lnu.se:1dv026/student/vm222hx/assignment-a2-the-gathering-web-scraper.git"
+  },
+  "author": "Vanja Maric <vm222hx@student.lnu.se>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jsdom": "^20.0.3",
+    "node-fetch": "^3.3.0",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "@lnu/eslint-config": "^1.1.7",
+    "eslint": "^8.25.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.3.14",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "eslintConfig": {
+    "extends": "@lnu"
+  }
+}
