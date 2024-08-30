@@ -12,8 +12,8 @@ import { LinkScraper } from './all-links-scraper.js'
 
 try {
   // Parse the command-line (skip the first two arguments).
-  const [, , url] = process.argv
-  // const url = 'https://courselab.lnu.se/scraper-site-2'
+
+  const url = 'https://courselab.lnu.se/scraper-site-2'
 
   // Get the links from start page
   const linkScraper = new LinkScraper()
